@@ -12,7 +12,7 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 cur.execute(f"DELETE FROM cbf.penalidade")
-cur.execute(f"DELETE FROM cbf.eventos")
+cur.execute(f"DELETE FROM cbf.evento")
 cur.execute(f"DELETE FROM cbf.equipe_arbitragem")
 cur.execute(f"DELETE FROM cbf.arbitro")
 cur.execute(f"DELETE FROM cbf.alteracao")
@@ -122,7 +122,7 @@ for rodada in range(rodadas):
                             """)
                 
                 cur.execute(f"""    
-                            INSERT INTO cbf.eventos(gols, penaltis, id_jogo, id_clube)
+                            INSERT INTO cbf.evento(gols, penaltis, id_jogo, id_clube)
                             VALUES 
                             (
                                 {jogo['mandante']['gols']},
@@ -133,7 +133,7 @@ for rodada in range(rodadas):
                             """)
                 
                 cur.execute(f"""    
-                            INSERT INTO cbf.eventos(gols, penaltis, id_jogo, id_clube)
+                            INSERT INTO cbf.evento(gols, penaltis, id_jogo, id_clube)
                             VALUES 
                             (
                                 {jogo['visitante']['gols']},
@@ -282,8 +282,7 @@ for rodada in range(rodadas):
                                     tipo, 
                                     resultado, 
                                     tempo_jogo, 
-                                    minutos, 
-                                    id_escalacao
+                                    minutos                                    
                                 )
                                 VALUES 
                                 (
@@ -291,12 +290,7 @@ for rodada in range(rodadas):
                                     '{penalidade['tipo']}',
                                     '{penalidade['resultado']}',
                                     '{penalidade['tempo_jogo']}', 
-                                    '0001-01-01 00:{penalidade['minutos'][0:4]}', 
-                                    (select id_escalacao 
-                                    from cbf.escalacao 
-                                    where id_atleta = {penalidade['atleta_id']}
-                                    and id_clube = {penalidade['clube_id']}
-                                    and id_jogo = {jogo['id_jogo']})
+                                    '0001-01-01 00:{penalidade['minutos'][0:4]}'
                                 )
                                 """)
                 
