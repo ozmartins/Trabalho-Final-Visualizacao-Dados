@@ -1,14 +1,14 @@
 import json
 from pathlib import Path
 
-years = [2024, 2023]#, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006]
+years = [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
 rounds_per_year = 38
 
 for year in years:
     for round in range(rounds_per_year):
-        original_file_name = f'./originais/{year}.{round+1}.json'
-        treated_file_name = f'./tratados/{year}.{round+1}.json'
+        original_file_name = f'./datasets/originais/{year}.{round+1}.json'
+        treated_file_name = f'./datasets/tratados/{year}.{round+1}.json'
         if Path(original_file_name).exists():
             with open(original_file_name, 'r', encoding='utf-8') as file_for_reading:
                 data = json.load(file_for_reading)            
@@ -21,8 +21,8 @@ for year in years:
                             name = name.split('-')[1].strip()
                         if '-' in nick:
                             nick = nick.split('-')[1].strip()                    
-                        athlet['nome'] = name
-                        athlet['apelido'] = nick
+                        athlet['nome'] = name.replace("'", "")
+                        athlet['apelido'] = nick.replace("'", "")
                     
                     #remove o número da camisa do nome e do apelido dos atletas do time visitante
                     for athlet in game['visitante']['atletas']:                    
@@ -32,8 +32,8 @@ for year in years:
                             name = name.split('-')[1].strip()
                         if '-' in nick:
                             nick = nick.split('-')[1].strip()                    
-                        athlet['nome'] = name
-                        athlet['apelido'] = nick
+                        athlet['nome'] = name.replace("'", "")
+                        athlet['apelido'] = nick.replace("'", "")
 
                     #desmembra o local da partida em estádio, cidade e UF
                     place = game['local']

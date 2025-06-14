@@ -26,7 +26,7 @@ cur.execute(f"DELETE FROM cbf.cidade")
 cur.execute(f"DELETE FROM cbf.campeonato")
 
 rodadas = 38
-anos = [2023, 2024]
+anos = [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
 for ano in anos:    
     for rodada in range(rodadas):
@@ -53,14 +53,51 @@ for ano in anos:
                                 INSERT INTO cbf.estadio(nome, id_cidade) 
                                 VALUES ('{jogo['estadio']}', (select id_cidade from cbf.cidade where nome = '{jogo['cidade']}'))
                                 ON CONFLICT (nome) DO NOTHING
-                                """)            
+                                """)
+                    
+                    cur.execute(f"""
+                                INSERT INTO cbf.clube(
+                                id_clube, nome, url_escudo)
+                                VALUES 
+                                (
+                                    {jogo['mandante']['id']},
+                                    '{jogo['mandante']['nome']}',
+                                    '{jogo['mandante']['url_escudo']}'                            
+                                )
+                                ON CONFLICT (id_clube) DO NOTHING
+                                """)
+                                        
+                    cur.execute(f"""
+                                INSERT INTO cbf.clube(
+                                id_clube, nome, url_escudo)
+                                VALUES 
+                                (
+                                    {jogo['visitante']['id']},
+                                    '{jogo['visitante']['nome']}',
+                                    '{jogo['visitante']['url_escudo']}'                            
+                                )
+                                ON CONFLICT (id_clube) DO NOTHING
+                                """)
                     
                     data_jogo = jogo['data'].strip().replace('/','')
                     data_jogo = data_jogo[4:8]+'-'+data_jogo[2:4]+'-'+data_jogo[0:2]
                     hora_jogo = '0001-01-01 '+jogo['hora']
                     
                     cur.execute(f"""
-                                INSERT INTO cbf.jogo(id_jogo, num_jogo, rodada, grupo, data, hora, qtd_alteracoes_jogo, id_campeonato, id_estadio)
+                                INSERT INTO cbf.jogo
+                                (
+                                    id_jogo, 
+                                    num_jogo, 
+                                    rodada, 
+                                    grupo, 
+                                    data, 
+                                    hora, 
+                                    qtd_alteracoes_jogo, 
+                                    id_campeonato, 
+                                    id_estadio,
+                                    id_clube_mandante,
+                                    id_clube_visitante
+                                )
                                 VALUES 
                                 (
                                     {jogo['id_jogo']},
@@ -71,7 +108,9 @@ for ano in anos:
                                     '{hora_jogo}', 
                                     {jogo['qtd_alteracoes_jogo']},
                                     1,
-                                    (select id_estadio from cbf.estadio where nome = '{jogo['estadio']}')
+                                    (select id_estadio from cbf.estadio where nome = '{jogo['estadio']}'),
+                                    {jogo['mandante']['id']},
+                                    {jogo['visitante']['id']}                                    
                                 )                            
                                 """)
                     
@@ -97,31 +136,7 @@ for ano in anos:
                                     '{arbitro['funcao']}'
                                     )
                                     ON CONFLICT (id_arbitro, id_jogo) DO NOTHING
-                                    """)        
-                    
-                    cur.execute(f"""
-                                INSERT INTO cbf.clube(
-                                id_clube, nome, url_escudo)
-                                VALUES 
-                                (
-                                    {jogo['mandante']['id']},
-                                    '{jogo['mandante']['nome']}',
-                                    '{jogo['mandante']['url_escudo']}'                            
-                                )
-                                ON CONFLICT (id_clube) DO NOTHING
-                                """)
-                                        
-                    cur.execute(f"""
-                                INSERT INTO cbf.clube(
-                                id_clube, nome, url_escudo)
-                                VALUES 
-                                (
-                                    {jogo['visitante']['id']},
-                                    '{jogo['visitante']['nome']}',
-                                    '{jogo['visitante']['url_escudo']}'                            
-                                )
-                                ON CONFLICT (id_clube) DO NOTHING
-                                """)
+                                    """)
                     
                     cur.execute(f"""    
                                 INSERT INTO cbf.evento(gols, penaltis, id_jogo, id_clube)
