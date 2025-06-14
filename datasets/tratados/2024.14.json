@@ -4802,767 +4802,6 @@
                     "uf": "PR"
                 },
                 {
-                    "id_jogo": "826587",
-                    "num_jogo": "131",
-                    "rodada": "14",
-                    "grupo": "GRUPO ÚNICO",
-                    "mandante": {
-                        "id": "20013",
-                        "nome": "Grêmio",
-                        "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
-                        "gols": "2",
-                        "panaltis": "0",
-                        "atletas": [
-                            {
-                                "id": "836837",
-                                "numero_camisa": "1",
-                                "reserva": "false",
-                                "goleiro": "true",
-                                "entrou_jogando": "true",
-                                "nome": "Agustin Federico Marchesin",
-                                "apelido": "Marchesin",
-                                "foto": "https://conteudo.cbf.com.br/atletas/02052210091/foto.jpg"
-                            },
-                            {
-                                "id": "554626",
-                                "numero_camisa": "4",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Walter Kannemann",
-                                "apelido": "Kannemann",
-                                "foto": "https://conteudo.cbf.com.br/atletas/60085017051/foto.jpg"
-                            },
-                            {
-                                "id": "819942",
-                                "numero_camisa": "5",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Rodrigo Ely",
-                                "apelido": "R. Ely",
-                                "foto": "https://conteudo.cbf.com.br/atletas/10613486609/foto.jpg"
-                            },
-                            {
-                                "id": "332318",
-                                "numero_camisa": "6",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Reinaldo Manoel da Silva",
-                                "apelido": "Reinaldo",
-                                "foto": "https://conteudo.cbf.com.br/atletas/09162200445/foto.jpg"
-                            },
-                            {
-                                "id": "793428",
-                                "numero_camisa": "8",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Felipe Ignacio Carballo Ares",
-                                "apelido": "Carballo",
-                                "foto": "https://conteudo.cbf.com.br/atletas/60331000008/foto.jpg"
-                            },
-                            {
-                                "id": "793449",
-                                "numero_camisa": "10",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Franco Sebastian Cristaldo",
-                                "apelido": "Cristaldo",
-                                "foto": "https://conteudo.cbf.com.br/atletas/60331065045/foto.jpg"
-                            },
-                            {
-                                "id": "293422",
-                                "numero_camisa": "11",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Joao Pedro Geraldino dos Santos Galvao",
-                                "apelido": "Joao Pedro",
-                                "foto": "https://conteudo.cbf.com.br/atletas/10717033660/foto.jpg"
-                            },
-                            {
-                                "id": "415027",
-                                "numero_camisa": "13",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Everton Galdino Moreira",
-                                "apelido": "Galdino",
-                                "foto": "https://conteudo.cbf.com.br/atletas/05833740185/foto.jpg"
-                            },
-                            {
-                                "id": "344314",
-                                "numero_camisa": "14",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Nathan Allan de Souza",
-                                "apelido": "Nathan",
-                                "foto": "https://conteudo.cbf.com.br/atletas/07316980966/foto.jpg"
-                            },
-                            {
-                                "id": "306270",
-                                "numero_camisa": "15",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Edenilson Andrade dos Santos",
-                                "apelido": "Edenilson",
-                                "foto": "https://conteudo.cbf.com.br/atletas/02069995003/foto.jpg"
-                            },
-                            {
-                                "id": "376586",
-                                "numero_camisa": "18",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Joao Pedro Maturano dos Santos",
-                                "apelido": "Joao Pedro",
-                                "foto": "https://conteudo.cbf.com.br/atletas/42767523883/foto.jpg"
-                            },
-                            {
-                                "id": "772443",
-                                "numero_camisa": "21",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Cristian David Pavon",
-                                "apelido": "Pavon",
-                                "foto": "https://conteudo.cbf.com.br/atletas/71809152119/foto.jpg"
-                            },
-                            {
-                                "id": "321898",
-                                "numero_camisa": "23",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Joao Pedro Vilardi Pinto",
-                                "apelido": "Pepe",
-                                "foto": "https://conteudo.cbf.com.br/atletas/13439289745/foto.jpg"
-                            },
-                            {
-                                "id": "558580",
-                                "numero_camisa": "26",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Mayksilvan da Silva Ferreira",
-                                "apelido": "Mayk",
-                                "foto": "https://conteudo.cbf.com.br/atletas/70140781439/foto.jpg"
-                            },
-                            {
-                                "id": "316645",
-                                "numero_camisa": "30",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Rodrigo Caio Coquette Russo",
-                                "apelido": "Rodrigo Caio",
-                                "foto": "https://conteudo.cbf.com.br/atletas/38558560870/foto.jpg"
-                            },
-                            {
-                                "id": "656191",
-                                "numero_camisa": "32",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Nathan Ribeiro Fernandes",
-                                "apelido": "Nathan Fernandes",
-                                "foto": "https://conteudo.cbf.com.br/atletas/19422207746/foto.jpg"
-                            },
-                            {
-                                "id": "292253",
-                                "numero_camisa": "33",
-                                "reserva": "true",
-                                "goleiro": "true",
-                                "entrou_jogando": "false",
-                                "nome": "Rafael Cabral Barbosa",
-                                "apelido": "Rafael Cabral",
-                                "foto": "https://conteudo.cbf.com.br/atletas/35011453812/foto.jpg"
-                            },
-                            {
-                                "id": "690488",
-                                "numero_camisa": "34",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Igor Eduardo Schlemper",
-                                "apelido": "Igor Serrote",
-                                "foto": "https://conteudo.cbf.com.br/atletas/08879627937/foto.jpg"
-                            },
-                            {
-                                "id": "600270",
-                                "numero_camisa": "35",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Ronald Cardoso Falkoski",
-                                "apelido": "Ronald",
-                                "foto": "https://conteudo.cbf.com.br/atletas/02433403030/foto.jpg"
-                            },
-                            {
-                                "id": "582447",
-                                "numero_camisa": "36",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Nata Felipe de Amorim Santos",
-                                "apelido": "Nata",
-                                "foto": "https://conteudo.cbf.com.br/atletas/10640772935/foto.jpg"
-                            },
-                            {
-                                "id": "448892",
-                                "numero_camisa": "37",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Eduardo Santos Queiroz",
-                                "apelido": "Eduardo Santos Queiroz",
-                                "foto": "https://conteudo.cbf.com.br/atletas/37512041802/foto.jpg"
-                            },
-                            {
-                                "id": "760733",
-                                "numero_camisa": "39",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Gustavo Nunes Fernandes Gomes",
-                                "apelido": "Gustavo Nunes",
-                                "foto": "https://conteudo.cbf.com.br/atletas/43160519899/foto.jpg"
-                            },
-                            {
-                                "id": "714601",
-                                "numero_camisa": "47",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Alysson Edward Franco da Rocha dos Santos",
-                                "apelido": "Alysson",
-                                "foto": "https://conteudo.cbf.com.br/atletas/60249338009/foto.jpg"
-                            }
-                        ],
-                        "alteracoes": [
-                            {
-                                "codigo_jogador_saiu": "306270",
-                                "codigo_jogador_entrou": "415027",
-                                "tempo_jogo": "13:00",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "13:00"
-                            },
-                            {
-                                "codigo_jogador_saiu": "760733",
-                                "codigo_jogador_entrou": "656191",
-                                "tempo_jogo": "35:00",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "35:00"
-                            },
-                            {
-                                "codigo_jogador_saiu": "772443",
-                                "codigo_jogador_entrou": "293422",
-                                "tempo_jogo": "26:00",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "26:00"
-                            },
-                            {
-                                "codigo_jogador_saiu": "793449",
-                                "codigo_jogador_entrou": "316645",
-                                "tempo_jogo": "26:00",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "26:00"
-                            },
-                            {
-                                "codigo_jogador_saiu": "819942",
-                                "codigo_jogador_entrou": "582447",
-                                "tempo_jogo": "26:00",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "26:00"
-                            }
-                        ]
-                    },
-                    "visitante": {
-                        "id": "20002",
-                        "nome": "Palmeiras",
-                        "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
-                        "gols": "2",
-                        "panaltis": "0",
-                        "atletas": [
-                            {
-                                "id": "544385",
-                                "numero_camisa": "1",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Mateus Oliveira Mendes",
-                                "apelido": "Mateus Oliveira",
-                                "foto": "https://conteudo.cbf.com.br/atletas/49400549857/foto.jpg"
-                            },
-                            {
-                                "id": "176390",
-                                "numero_camisa": "2",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Marcos Luis Rocha Aquino",
-                                "apelido": "Marcos Rocha",
-                                "foto": "https://conteudo.cbf.com.br/atletas/09004413642/foto.jpg"
-                            },
-                            {
-                                "id": "836726",
-                                "numero_camisa": "5",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Anibal Ismael Moreno",
-                                "apelido": "Anibal Moreno",
-                                "foto": "https://conteudo.cbf.com.br/atletas/01485222893/foto.jpg"
-                            },
-                            {
-                                "id": "554444",
-                                "numero_camisa": "6",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Vanderlan Barbosa da Silva",
-                                "apelido": "Vanderlan",
-                                "foto": "https://conteudo.cbf.com.br/atletas/08657331551/foto.jpg"
-                            },
-                            {
-                                "id": "291738",
-                                "numero_camisa": "7",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Eduardo Pereira Rodrigues",
-                                "apelido": "Dudu",
-                                "foto": "https://conteudo.cbf.com.br/atletas/02039660151/foto.jpg"
-                            },
-                            {
-                                "id": "427806",
-                                "numero_camisa": "10",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Ronielson da Silva Barbosa",
-                                "apelido": "Rony",
-                                "foto": "https://conteudo.cbf.com.br/atletas/02623631271/foto.jpg"
-                            },
-                            {
-                                "id": "312950",
-                                "numero_camisa": "12",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Mayke Rocha de Oliveira",
-                                "apelido": "Mayke",
-                                "foto": "https://conteudo.cbf.com.br/atletas/11413160646/foto.jpg"
-                            },
-                            {
-                                "id": "157264",
-                                "numero_camisa": "14",
-                                "reserva": "true",
-                                "goleiro": "true",
-                                "entrou_jogando": "false",
-                                "nome": "Marcelo Lomba do Nascimento",
-                                "apelido": "Marcelo Lomba",
-                                "foto": "https://conteudo.cbf.com.br/atletas/10956715702/foto.jpg"
-                            },
-                            {
-                                "id": "460683",
-                                "numero_camisa": "16",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Caio Fernando de Oliveira",
-                                "apelido": "Caio Paulista",
-                                "foto": "https://conteudo.cbf.com.br/atletas/43739209828/foto.jpg"
-                            },
-                            {
-                                "id": "169050",
-                                "numero_camisa": "21",
-                                "reserva": "false",
-                                "goleiro": "true",
-                                "entrou_jogando": "true",
-                                "nome": "Weverton Pereira da Silva",
-                                "apelido": "Weverton",
-                                "foto": "https://conteudo.cbf.com.br/atletas/52790444234/foto.jpg"
-                            },
-                            {
-                                "id": "725766",
-                                "numero_camisa": "22",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Joaquin Piquerez Moreira",
-                                "apelido": "Joaquin Piquerez",
-                                "foto": "https://conteudo.cbf.com.br/atletas/90004129865/foto.jpg"
-                            },
-                            {
-                                "id": "501573",
-                                "numero_camisa": "32",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Gustavo Garcia dos Santos",
-                                "apelido": "Gustavo Garcia",
-                                "foto": "https://conteudo.cbf.com.br/atletas/45359154829/foto.jpg"
-                            },
-                            {
-                                "id": "554334",
-                                "numero_camisa": "34",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Kaiky Marques Naves",
-                                "apelido": "Kaiky",
-                                "foto": "https://conteudo.cbf.com.br/atletas/36258276890/foto.jpg"
-                            },
-                            {
-                                "id": "547222",
-                                "numero_camisa": "35",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Fabio Silva de Freitas",
-                                "apelido": "Fabinho",
-                                "foto": "https://conteudo.cbf.com.br/atletas/44384693842/foto.jpg"
-                            },
-                            {
-                                "id": "633579",
-                                "numero_camisa": "40",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Jhonatan dos Santos Rosa",
-                                "apelido": "Jhon Jhon",
-                                "foto": "https://conteudo.cbf.com.br/atletas/16346179756/foto.jpg"
-                            },
-                            {
-                                "id": "610706",
-                                "numero_camisa": "41",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Estevao Willian Almeida de Oliveira Goncalves",
-                                "apelido": "Estêvão",
-                                "foto": "https://conteudo.cbf.com.br/atletas/44915717836/foto.jpg"
-                            },
-                            {
-                                "id": "773040",
-                                "numero_camisa": "42",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Jose Manuel Alberto Lopez",
-                                "apelido": "Lopez",
-                                "foto": "https://conteudo.cbf.com.br/atletas/90093316879/foto.jpg"
-                            },
-                            {
-                                "id": "691719",
-                                "numero_camisa": "44",
-                                "reserva": "false",
-                                "goleiro": "false",
-                                "entrou_jogando": "true",
-                                "nome": "Vitor de Oliveira Nunes dos Reis",
-                                "apelido": "Vitor Reis",
-                                "foto": "https://conteudo.cbf.com.br/atletas/48133206863/foto.jpg"
-                            },
-                            {
-                                "id": "696852",
-                                "numero_camisa": "54",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Luis Gustavo Roncholeta Benedetti",
-                                "apelido": "Benedetti",
-                                "foto": "https://conteudo.cbf.com.br/atletas/47118473839/foto.jpg"
-                            },
-                            {
-                                "id": "691624",
-                                "numero_camisa": "57",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Luighi Hanri Sousa Santos",
-                                "apelido": "Luighi",
-                                "foto": "https://conteudo.cbf.com.br/atletas/48269348821/foto.jpg"
-                            },
-                            {
-                                "id": "650872",
-                                "numero_camisa": "65",
-                                "reserva": "true",
-                                "goleiro": "false",
-                                "entrou_jogando": "false",
-                                "nome": "Patrick Roberto da Silva Campos",
-                                "apelido": "PATRICK",
-                                "foto": "https://conteudo.cbf.com.br/atletas/15584257648/foto.jpg"
-                            }
-                        ],
-                        "alteracoes": [
-                            {
-                                "codigo_jogador_saiu": "176390",
-                                "codigo_jogador_entrou": "291738",
-                                "tempo_jogo": "24:00",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "24:00"
-                            },
-                            {
-                                "codigo_jogador_saiu": "547222",
-                                "codigo_jogador_entrou": "312950",
-                                "tempo_jogo": "45:00",
-                                "tempo_subs": "INT",
-                                "tempo_acrescimo": "00:00"
-                            },
-                            {
-                                "codigo_jogador_saiu": "554334",
-                                "codigo_jogador_entrou": "554444",
-                                "tempo_jogo": "8:00 ",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "8:00"
-                            },
-                            {
-                                "codigo_jogador_saiu": "610706",
-                                "codigo_jogador_entrou": "460683",
-                                "tempo_jogo": "43:00",
-                                "tempo_subs": "TN2",
-                                "tempo_acrescimo": "43:00"
-                            }
-                        ]
-                    },
-                    "campeonato": "Campeonato Brasileiro",
-                    "data": " 04/07/2024",
-                    "hora": "19:00",
-                    "qtd_alteracoes_jogo": 1,
-                    "documentos": [
-                        {
-                            "url": "https://conteudo.cbf.com.br/sumulas/2024/142131se.pdf",
-                            "title": "Súmula"
-                        },
-                        {
-                            "url": "https://conteudo.cbf.com.br/sumulas/2024/142131b.pdf",
-                            "title": "Boletim Financeiro"
-                        },
-                        {
-                            "url": "https://conteudo.cbf.com.br/sumulas/2024/142131rdj.pdf",
-                            "title": "Relatório de Jogo"
-                        }
-                    ],
-                    "arbitros": [
-                        {
-                            "id": "386",
-                            "nome": "Marcelo de Lima Henrique",
-                            "funcao": "Arbitro",
-                            "uf": "CE",
-                            "categoria": "MASTER"
-                        },
-                        {
-                            "id": "1303",
-                            "nome": "Alex dos Santos",
-                            "funcao": "Arbitro Assistente 1",
-                            "uf": "SC",
-                            "categoria": "AB"
-                        },
-                        {
-                            "id": "14568",
-                            "nome": "Thiago Henrique Neto Correa Farinha",
-                            "funcao": "Arbitro Assistente 2",
-                            "uf": "RJ",
-                            "categoria": "MASTER"
-                        },
-                        {
-                            "id": "16177",
-                            "nome": "Bruno Pereira Vasconcelos",
-                            "funcao": "Quarto Arbitro",
-                            "uf": "BA",
-                            "categoria": "AB"
-                        },
-                        {
-                            "id": "19478",
-                            "nome": "Mikael Silva de Araujo",
-                            "funcao": "Quality manager",
-                            "uf": "RJ",
-                            "categoria": "CBF"
-                        },
-                        {
-                            "id": "1273",
-                            "nome": "Raimundo Nonato Lopo De Abreu",
-                            "funcao": "Assessor",
-                            "uf": "DF",
-                            "categoria": "CBF"
-                        },
-                        {
-                            "id": "14954",
-                            "nome": "Marco Aurelio Augusto Fazekas Ferreira",
-                            "funcao": "VAR",
-                            "uf": "MG",
-                            "categoria": "VAR-FIFA"
-                        },
-                        {
-                            "id": "676",
-                            "nome": "Fabricio Vilarinho da Silva",
-                            "funcao": "AVAR",
-                            "uf": "RJ",
-                            "categoria": "CBF"
-                        },
-                        {
-                            "id": "1038",
-                            "nome": "Rodrigo Batista Raposo",
-                            "funcao": "AVAR2",
-                            "uf": "DF",
-                            "categoria": "AB"
-                        },
-                        {
-                            "id": "120",
-                            "nome": "Marrubson Melo Freitas",
-                            "funcao": "Observador de VAR",
-                            "uf": "DF",
-                            "categoria": "CBF"
-                        }
-                    ],
-                    "penalidades": [
-                        {
-                            "id": "72386",
-                            "tipo": "GOL",
-                            "resultado": "NR",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
-                            "clube_id": "20013",
-                            "atleta_nome": "Cristian David Pavon",
-                            "atleta_apelido": "Pavon",
-                            "atleta_camisa": "21",
-                            "atleta_id": "772443",
-                            "tempo_jogo": "TN1",
-                            "minutos": "02:00",
-                            "clube_nome": "Grêmio",
-                            "clube_uf": "RS"
-                        },
-                        {
-                            "id": "72388",
-                            "tipo": "GOL",
-                            "resultado": "PN",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
-                            "clube_id": "20013",
-                            "atleta_nome": "Franco Sebastian Cristaldo",
-                            "atleta_apelido": "Cristaldo",
-                            "atleta_camisa": "10",
-                            "atleta_id": "793449",
-                            "tempo_jogo": "TN2",
-                            "minutos": "24:00",
-                            "clube_nome": "Grêmio",
-                            "clube_uf": "RS"
-                        },
-                        {
-                            "id": "72389",
-                            "tipo": "GOL",
-                            "resultado": "NR",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
-                            "clube_id": "20002",
-                            "atleta_nome": "Jose Manuel Alberto Lopez",
-                            "atleta_apelido": "Lopez",
-                            "atleta_camisa": "42",
-                            "atleta_id": "773040",
-                            "tempo_jogo": "TN2",
-                            "minutos": "29:00",
-                            "clube_nome": "Palmeiras",
-                            "clube_uf": "SP"
-                        },
-                        {
-                            "id": "72390",
-                            "tipo": "GOL",
-                            "resultado": "NR",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
-                            "clube_id": "20002",
-                            "atleta_nome": "Estevao Willian Almeida de Oliveira Goncalves",
-                            "atleta_apelido": "Estêvão",
-                            "atleta_camisa": "41",
-                            "atleta_id": "610706",
-                            "tempo_jogo": "TN2",
-                            "minutos": "31:00",
-                            "clube_nome": "Palmeiras",
-                            "clube_uf": "SP"
-                        },
-                        {
-                            "id": "393255",
-                            "tipo": "PENALIDADE",
-                            "resultado": "AMARELO",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
-                            "clube_id": "20002",
-                            "atleta_nome": "Vitor de Oliveira Nunes dos Reis",
-                            "atleta_apelido": "Vitor Reis",
-                            "atleta_camisa": "44",
-                            "atleta_id": "691719",
-                            "tempo_jogo": "TN1",
-                            "minutos": "36:00",
-                            "clube_nome": "Palmeiras",
-                            "clube_uf": "SP"
-                        },
-                        {
-                            "id": "393256",
-                            "tipo": "PENALIDADE",
-                            "resultado": "AMARELO",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
-                            "clube_id": "20002",
-                            "atleta_nome": "Kaiky Marques Naves",
-                            "atleta_apelido": "Kaiky",
-                            "atleta_camisa": "34",
-                            "atleta_id": "554334",
-                            "tempo_jogo": "TN1",
-                            "minutos": "40:00",
-                            "clube_nome": "Palmeiras",
-                            "clube_uf": "SP"
-                        },
-                        {
-                            "id": "393253",
-                            "tipo": "PENALIDADE",
-                            "resultado": "AMARELO",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
-                            "clube_id": "20013",
-                            "atleta_nome": "Rodrigo Ely",
-                            "atleta_apelido": "R. Ely",
-                            "atleta_camisa": "5",
-                            "atleta_id": "819942",
-                            "tempo_jogo": "TN2",
-                            "minutos": "25:00",
-                            "clube_nome": "Grêmio",
-                            "clube_uf": "RS"
-                        },
-                        {
-                            "id": "393254",
-                            "tipo": "PENALIDADE",
-                            "resultado": "AMARELO",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
-                            "clube_id": "20013",
-                            "atleta_nome": "Nata Felipe de Amorim Santos",
-                            "atleta_apelido": "Nata",
-                            "atleta_camisa": "36",
-                            "atleta_id": "582447",
-                            "tempo_jogo": "TN2",
-                            "minutos": "37:00",
-                            "clube_nome": "Grêmio",
-                            "clube_uf": "RS"
-                        },
-                        {
-                            "id": "393257",
-                            "tipo": "PENALIDADE",
-                            "resultado": "AMARELO",
-                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
-                            "clube_id": "20002",
-                            "atleta_nome": "Anibal Ismael Moreno",
-                            "atleta_apelido": "Anibal Moreno",
-                            "atleta_camisa": "5",
-                            "atleta_id": "836726",
-                            "tempo_jogo": "TN2",
-                            "minutos": "8:00",
-                            "clube_nome": "Palmeiras",
-                            "clube_uf": "SP"
-                        }
-                    ],
-                    "estadio": "Centenário",
-                    "cidade": "Caxias do Sul",
-                    "uf": "RS"
-                },
-                {
                     "id_jogo": "826589",
                     "num_jogo": "133",
                     "rodada": "14",
@@ -6332,6 +5571,767 @@
                     "estadio": "Arena Fonte Nova",
                     "cidade": "Salvador",
                     "uf": "BA"
+                },
+                {
+                    "id_jogo": "826587",
+                    "num_jogo": "131",
+                    "rodada": "14",
+                    "grupo": "GRUPO ÚNICO",
+                    "mandante": {
+                        "id": "20013",
+                        "nome": "Grêmio",
+                        "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
+                        "gols": "2",
+                        "panaltis": "0",
+                        "atletas": [
+                            {
+                                "id": "836837",
+                                "numero_camisa": "1",
+                                "reserva": "false",
+                                "goleiro": "true",
+                                "entrou_jogando": "true",
+                                "nome": "Agustin Federico Marchesin",
+                                "apelido": "Marchesin",
+                                "foto": "https://conteudo.cbf.com.br/atletas/02052210091/foto.jpg"
+                            },
+                            {
+                                "id": "554626",
+                                "numero_camisa": "4",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Walter Kannemann",
+                                "apelido": "Kannemann",
+                                "foto": "https://conteudo.cbf.com.br/atletas/60085017051/foto.jpg"
+                            },
+                            {
+                                "id": "819942",
+                                "numero_camisa": "5",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Rodrigo Ely",
+                                "apelido": "R. Ely",
+                                "foto": "https://conteudo.cbf.com.br/atletas/10613486609/foto.jpg"
+                            },
+                            {
+                                "id": "332318",
+                                "numero_camisa": "6",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Reinaldo Manoel da Silva",
+                                "apelido": "Reinaldo",
+                                "foto": "https://conteudo.cbf.com.br/atletas/09162200445/foto.jpg"
+                            },
+                            {
+                                "id": "793428",
+                                "numero_camisa": "8",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Felipe Ignacio Carballo Ares",
+                                "apelido": "Carballo",
+                                "foto": "https://conteudo.cbf.com.br/atletas/60331000008/foto.jpg"
+                            },
+                            {
+                                "id": "793449",
+                                "numero_camisa": "10",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Franco Sebastian Cristaldo",
+                                "apelido": "Cristaldo",
+                                "foto": "https://conteudo.cbf.com.br/atletas/60331065045/foto.jpg"
+                            },
+                            {
+                                "id": "293422",
+                                "numero_camisa": "11",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Joao Pedro Geraldino dos Santos Galvao",
+                                "apelido": "Joao Pedro",
+                                "foto": "https://conteudo.cbf.com.br/atletas/10717033660/foto.jpg"
+                            },
+                            {
+                                "id": "415027",
+                                "numero_camisa": "13",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Everton Galdino Moreira",
+                                "apelido": "Galdino",
+                                "foto": "https://conteudo.cbf.com.br/atletas/05833740185/foto.jpg"
+                            },
+                            {
+                                "id": "344314",
+                                "numero_camisa": "14",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Nathan Allan de Souza",
+                                "apelido": "Nathan",
+                                "foto": "https://conteudo.cbf.com.br/atletas/07316980966/foto.jpg"
+                            },
+                            {
+                                "id": "306270",
+                                "numero_camisa": "15",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Edenilson Andrade dos Santos",
+                                "apelido": "Edenilson",
+                                "foto": "https://conteudo.cbf.com.br/atletas/02069995003/foto.jpg"
+                            },
+                            {
+                                "id": "376586",
+                                "numero_camisa": "18",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Joao Pedro Maturano dos Santos",
+                                "apelido": "Joao Pedro",
+                                "foto": "https://conteudo.cbf.com.br/atletas/42767523883/foto.jpg"
+                            },
+                            {
+                                "id": "772443",
+                                "numero_camisa": "21",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Cristian David Pavon",
+                                "apelido": "Pavon",
+                                "foto": "https://conteudo.cbf.com.br/atletas/71809152119/foto.jpg"
+                            },
+                            {
+                                "id": "321898",
+                                "numero_camisa": "23",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Joao Pedro Vilardi Pinto",
+                                "apelido": "Pepe",
+                                "foto": "https://conteudo.cbf.com.br/atletas/13439289745/foto.jpg"
+                            },
+                            {
+                                "id": "558580",
+                                "numero_camisa": "26",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Mayksilvan da Silva Ferreira",
+                                "apelido": "Mayk",
+                                "foto": "https://conteudo.cbf.com.br/atletas/70140781439/foto.jpg"
+                            },
+                            {
+                                "id": "316645",
+                                "numero_camisa": "30",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Rodrigo Caio Coquette Russo",
+                                "apelido": "Rodrigo Caio",
+                                "foto": "https://conteudo.cbf.com.br/atletas/38558560870/foto.jpg"
+                            },
+                            {
+                                "id": "656191",
+                                "numero_camisa": "32",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Nathan Ribeiro Fernandes",
+                                "apelido": "Nathan Fernandes",
+                                "foto": "https://conteudo.cbf.com.br/atletas/19422207746/foto.jpg"
+                            },
+                            {
+                                "id": "292253",
+                                "numero_camisa": "33",
+                                "reserva": "true",
+                                "goleiro": "true",
+                                "entrou_jogando": "false",
+                                "nome": "Rafael Cabral Barbosa",
+                                "apelido": "Rafael Cabral",
+                                "foto": "https://conteudo.cbf.com.br/atletas/35011453812/foto.jpg"
+                            },
+                            {
+                                "id": "690488",
+                                "numero_camisa": "34",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Igor Eduardo Schlemper",
+                                "apelido": "Igor Serrote",
+                                "foto": "https://conteudo.cbf.com.br/atletas/08879627937/foto.jpg"
+                            },
+                            {
+                                "id": "600270",
+                                "numero_camisa": "35",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Ronald Cardoso Falkoski",
+                                "apelido": "Ronald",
+                                "foto": "https://conteudo.cbf.com.br/atletas/02433403030/foto.jpg"
+                            },
+                            {
+                                "id": "582447",
+                                "numero_camisa": "36",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Nata Felipe de Amorim Santos",
+                                "apelido": "Nata",
+                                "foto": "https://conteudo.cbf.com.br/atletas/10640772935/foto.jpg"
+                            },
+                            {
+                                "id": "448892",
+                                "numero_camisa": "37",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Eduardo Santos Queiroz",
+                                "apelido": "Eduardo Santos Queiroz",
+                                "foto": "https://conteudo.cbf.com.br/atletas/37512041802/foto.jpg"
+                            },
+                            {
+                                "id": "760733",
+                                "numero_camisa": "39",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Gustavo Nunes Fernandes Gomes",
+                                "apelido": "Gustavo Nunes",
+                                "foto": "https://conteudo.cbf.com.br/atletas/43160519899/foto.jpg"
+                            },
+                            {
+                                "id": "714601",
+                                "numero_camisa": "47",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Alysson Edward Franco da Rocha dos Santos",
+                                "apelido": "Alysson",
+                                "foto": "https://conteudo.cbf.com.br/atletas/60249338009/foto.jpg"
+                            }
+                        ],
+                        "alteracoes": [
+                            {
+                                "codigo_jogador_saiu": "306270",
+                                "codigo_jogador_entrou": "415027",
+                                "tempo_jogo": "13:00",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "13:00"
+                            },
+                            {
+                                "codigo_jogador_saiu": "760733",
+                                "codigo_jogador_entrou": "656191",
+                                "tempo_jogo": "35:00",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "35:00"
+                            },
+                            {
+                                "codigo_jogador_saiu": "772443",
+                                "codigo_jogador_entrou": "293422",
+                                "tempo_jogo": "26:00",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "26:00"
+                            },
+                            {
+                                "codigo_jogador_saiu": "793449",
+                                "codigo_jogador_entrou": "316645",
+                                "tempo_jogo": "26:00",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "26:00"
+                            },
+                            {
+                                "codigo_jogador_saiu": "819942",
+                                "codigo_jogador_entrou": "582447",
+                                "tempo_jogo": "26:00",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "26:00"
+                            }
+                        ]
+                    },
+                    "visitante": {
+                        "id": "20002",
+                        "nome": "Palmeiras",
+                        "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
+                        "gols": "2",
+                        "panaltis": "0",
+                        "atletas": [
+                            {
+                                "id": "544385",
+                                "numero_camisa": "1",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Mateus Oliveira Mendes",
+                                "apelido": "Mateus Oliveira",
+                                "foto": "https://conteudo.cbf.com.br/atletas/49400549857/foto.jpg"
+                            },
+                            {
+                                "id": "176390",
+                                "numero_camisa": "2",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Marcos Luis Rocha Aquino",
+                                "apelido": "Marcos Rocha",
+                                "foto": "https://conteudo.cbf.com.br/atletas/09004413642/foto.jpg"
+                            },
+                            {
+                                "id": "836726",
+                                "numero_camisa": "5",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Anibal Ismael Moreno",
+                                "apelido": "Anibal Moreno",
+                                "foto": "https://conteudo.cbf.com.br/atletas/01485222893/foto.jpg"
+                            },
+                            {
+                                "id": "554444",
+                                "numero_camisa": "6",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Vanderlan Barbosa da Silva",
+                                "apelido": "Vanderlan",
+                                "foto": "https://conteudo.cbf.com.br/atletas/08657331551/foto.jpg"
+                            },
+                            {
+                                "id": "291738",
+                                "numero_camisa": "7",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Eduardo Pereira Rodrigues",
+                                "apelido": "Dudu",
+                                "foto": "https://conteudo.cbf.com.br/atletas/02039660151/foto.jpg"
+                            },
+                            {
+                                "id": "427806",
+                                "numero_camisa": "10",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Ronielson da Silva Barbosa",
+                                "apelido": "Rony",
+                                "foto": "https://conteudo.cbf.com.br/atletas/02623631271/foto.jpg"
+                            },
+                            {
+                                "id": "312950",
+                                "numero_camisa": "12",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Mayke Rocha de Oliveira",
+                                "apelido": "Mayke",
+                                "foto": "https://conteudo.cbf.com.br/atletas/11413160646/foto.jpg"
+                            },
+                            {
+                                "id": "157264",
+                                "numero_camisa": "14",
+                                "reserva": "true",
+                                "goleiro": "true",
+                                "entrou_jogando": "false",
+                                "nome": "Marcelo Lomba do Nascimento",
+                                "apelido": "Marcelo Lomba",
+                                "foto": "https://conteudo.cbf.com.br/atletas/10956715702/foto.jpg"
+                            },
+                            {
+                                "id": "460683",
+                                "numero_camisa": "16",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Caio Fernando de Oliveira",
+                                "apelido": "Caio Paulista",
+                                "foto": "https://conteudo.cbf.com.br/atletas/43739209828/foto.jpg"
+                            },
+                            {
+                                "id": "169050",
+                                "numero_camisa": "21",
+                                "reserva": "false",
+                                "goleiro": "true",
+                                "entrou_jogando": "true",
+                                "nome": "Weverton Pereira da Silva",
+                                "apelido": "Weverton",
+                                "foto": "https://conteudo.cbf.com.br/atletas/52790444234/foto.jpg"
+                            },
+                            {
+                                "id": "725766",
+                                "numero_camisa": "22",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Joaquin Piquerez Moreira",
+                                "apelido": "Joaquin Piquerez",
+                                "foto": "https://conteudo.cbf.com.br/atletas/90004129865/foto.jpg"
+                            },
+                            {
+                                "id": "501573",
+                                "numero_camisa": "32",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Gustavo Garcia dos Santos",
+                                "apelido": "Gustavo Garcia",
+                                "foto": "https://conteudo.cbf.com.br/atletas/45359154829/foto.jpg"
+                            },
+                            {
+                                "id": "554334",
+                                "numero_camisa": "34",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Kaiky Marques Naves",
+                                "apelido": "Kaiky",
+                                "foto": "https://conteudo.cbf.com.br/atletas/36258276890/foto.jpg"
+                            },
+                            {
+                                "id": "547222",
+                                "numero_camisa": "35",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Fabio Silva de Freitas",
+                                "apelido": "Fabinho",
+                                "foto": "https://conteudo.cbf.com.br/atletas/44384693842/foto.jpg"
+                            },
+                            {
+                                "id": "633579",
+                                "numero_camisa": "40",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Jhonatan dos Santos Rosa",
+                                "apelido": "Jhon Jhon",
+                                "foto": "https://conteudo.cbf.com.br/atletas/16346179756/foto.jpg"
+                            },
+                            {
+                                "id": "610706",
+                                "numero_camisa": "41",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Estevao Willian Almeida de Oliveira Goncalves",
+                                "apelido": "Estêvão",
+                                "foto": "https://conteudo.cbf.com.br/atletas/44915717836/foto.jpg"
+                            },
+                            {
+                                "id": "773040",
+                                "numero_camisa": "42",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Jose Manuel Alberto Lopez",
+                                "apelido": "Lopez",
+                                "foto": "https://conteudo.cbf.com.br/atletas/90093316879/foto.jpg"
+                            },
+                            {
+                                "id": "691719",
+                                "numero_camisa": "44",
+                                "reserva": "false",
+                                "goleiro": "false",
+                                "entrou_jogando": "true",
+                                "nome": "Vitor de Oliveira Nunes dos Reis",
+                                "apelido": "Vitor Reis",
+                                "foto": "https://conteudo.cbf.com.br/atletas/48133206863/foto.jpg"
+                            },
+                            {
+                                "id": "696852",
+                                "numero_camisa": "54",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Luis Gustavo Roncholeta Benedetti",
+                                "apelido": "Benedetti",
+                                "foto": "https://conteudo.cbf.com.br/atletas/47118473839/foto.jpg"
+                            },
+                            {
+                                "id": "691624",
+                                "numero_camisa": "57",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Luighi Hanri Sousa Santos",
+                                "apelido": "Luighi",
+                                "foto": "https://conteudo.cbf.com.br/atletas/48269348821/foto.jpg"
+                            },
+                            {
+                                "id": "650872",
+                                "numero_camisa": "65",
+                                "reserva": "true",
+                                "goleiro": "false",
+                                "entrou_jogando": "false",
+                                "nome": "Patrick Roberto da Silva Campos",
+                                "apelido": "PATRICK",
+                                "foto": "https://conteudo.cbf.com.br/atletas/15584257648/foto.jpg"
+                            }
+                        ],
+                        "alteracoes": [
+                            {
+                                "codigo_jogador_saiu": "176390",
+                                "codigo_jogador_entrou": "291738",
+                                "tempo_jogo": "24:00",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "24:00"
+                            },
+                            {
+                                "codigo_jogador_saiu": "547222",
+                                "codigo_jogador_entrou": "312950",
+                                "tempo_jogo": "45:00",
+                                "tempo_subs": "INT",
+                                "tempo_acrescimo": "00:00"
+                            },
+                            {
+                                "codigo_jogador_saiu": "554334",
+                                "codigo_jogador_entrou": "554444",
+                                "tempo_jogo": "8:00 ",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "8:00"
+                            },
+                            {
+                                "codigo_jogador_saiu": "610706",
+                                "codigo_jogador_entrou": "460683",
+                                "tempo_jogo": "43:00",
+                                "tempo_subs": "TN2",
+                                "tempo_acrescimo": "43:00"
+                            }
+                        ]
+                    },
+                    "campeonato": "Campeonato Brasileiro",
+                    "data": " 04/07/2024",
+                    "hora": "19:00",
+                    "qtd_alteracoes_jogo": 1,
+                    "documentos": [
+                        {
+                            "url": "https://conteudo.cbf.com.br/sumulas/2024/142131se.pdf",
+                            "title": "Súmula"
+                        },
+                        {
+                            "url": "https://conteudo.cbf.com.br/sumulas/2024/142131b.pdf",
+                            "title": "Boletim Financeiro"
+                        },
+                        {
+                            "url": "https://conteudo.cbf.com.br/sumulas/2024/142131rdj.pdf",
+                            "title": "Relatório de Jogo"
+                        }
+                    ],
+                    "arbitros": [
+                        {
+                            "id": "386",
+                            "nome": "Marcelo de Lima Henrique",
+                            "funcao": "Arbitro",
+                            "uf": "CE",
+                            "categoria": "MASTER"
+                        },
+                        {
+                            "id": "1303",
+                            "nome": "Alex dos Santos",
+                            "funcao": "Arbitro Assistente 1",
+                            "uf": "SC",
+                            "categoria": "AB"
+                        },
+                        {
+                            "id": "14568",
+                            "nome": "Thiago Henrique Neto Correa Farinha",
+                            "funcao": "Arbitro Assistente 2",
+                            "uf": "RJ",
+                            "categoria": "MASTER"
+                        },
+                        {
+                            "id": "16177",
+                            "nome": "Bruno Pereira Vasconcelos",
+                            "funcao": "Quarto Arbitro",
+                            "uf": "BA",
+                            "categoria": "AB"
+                        },
+                        {
+                            "id": "19478",
+                            "nome": "Mikael Silva de Araujo",
+                            "funcao": "Quality manager",
+                            "uf": "RJ",
+                            "categoria": "CBF"
+                        },
+                        {
+                            "id": "1273",
+                            "nome": "Raimundo Nonato Lopo De Abreu",
+                            "funcao": "Assessor",
+                            "uf": "DF",
+                            "categoria": "CBF"
+                        },
+                        {
+                            "id": "14954",
+                            "nome": "Marco Aurelio Augusto Fazekas Ferreira",
+                            "funcao": "VAR",
+                            "uf": "MG",
+                            "categoria": "VAR-FIFA"
+                        },
+                        {
+                            "id": "676",
+                            "nome": "Fabricio Vilarinho da Silva",
+                            "funcao": "AVAR",
+                            "uf": "RJ",
+                            "categoria": "CBF"
+                        },
+                        {
+                            "id": "1038",
+                            "nome": "Rodrigo Batista Raposo",
+                            "funcao": "AVAR2",
+                            "uf": "DF",
+                            "categoria": "AB"
+                        },
+                        {
+                            "id": "120",
+                            "nome": "Marrubson Melo Freitas",
+                            "funcao": "Observador de VAR",
+                            "uf": "DF",
+                            "categoria": "CBF"
+                        }
+                    ],
+                    "penalidades": [
+                        {
+                            "id": "72386",
+                            "tipo": "GOL",
+                            "resultado": "NR",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
+                            "clube_id": "20013",
+                            "atleta_nome": "Cristian David Pavon",
+                            "atleta_apelido": "Pavon",
+                            "atleta_camisa": "21",
+                            "atleta_id": "772443",
+                            "tempo_jogo": "TN1",
+                            "minutos": "02:00",
+                            "clube_nome": "Grêmio",
+                            "clube_uf": "RS"
+                        },
+                        {
+                            "id": "72388",
+                            "tipo": "GOL",
+                            "resultado": "PN",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
+                            "clube_id": "20013",
+                            "atleta_nome": "Franco Sebastian Cristaldo",
+                            "atleta_apelido": "Cristaldo",
+                            "atleta_camisa": "10",
+                            "atleta_id": "793449",
+                            "tempo_jogo": "TN2",
+                            "minutos": "24:00",
+                            "clube_nome": "Grêmio",
+                            "clube_uf": "RS"
+                        },
+                        {
+                            "id": "72389",
+                            "tipo": "GOL",
+                            "resultado": "NR",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
+                            "clube_id": "20002",
+                            "atleta_nome": "Jose Manuel Alberto Lopez",
+                            "atleta_apelido": "Lopez",
+                            "atleta_camisa": "42",
+                            "atleta_id": "773040",
+                            "tempo_jogo": "TN2",
+                            "minutos": "29:00",
+                            "clube_nome": "Palmeiras",
+                            "clube_uf": "SP"
+                        },
+                        {
+                            "id": "72390",
+                            "tipo": "GOL",
+                            "resultado": "NR",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
+                            "clube_id": "20002",
+                            "atleta_nome": "Estevao Willian Almeida de Oliveira Goncalves",
+                            "atleta_apelido": "Estêvão",
+                            "atleta_camisa": "41",
+                            "atleta_id": "610706",
+                            "tempo_jogo": "TN2",
+                            "minutos": "31:00",
+                            "clube_nome": "Palmeiras",
+                            "clube_uf": "SP"
+                        },
+                        {
+                            "id": "393255",
+                            "tipo": "PENALIDADE",
+                            "resultado": "AMARELO",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
+                            "clube_id": "20002",
+                            "atleta_nome": "Vitor de Oliveira Nunes dos Reis",
+                            "atleta_apelido": "Vitor Reis",
+                            "atleta_camisa": "44",
+                            "atleta_id": "691719",
+                            "tempo_jogo": "TN1",
+                            "minutos": "36:00",
+                            "clube_nome": "Palmeiras",
+                            "clube_uf": "SP"
+                        },
+                        {
+                            "id": "393256",
+                            "tipo": "PENALIDADE",
+                            "resultado": "AMARELO",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
+                            "clube_id": "20002",
+                            "atleta_nome": "Kaiky Marques Naves",
+                            "atleta_apelido": "Kaiky",
+                            "atleta_camisa": "34",
+                            "atleta_id": "554334",
+                            "tempo_jogo": "TN1",
+                            "minutos": "40:00",
+                            "clube_nome": "Palmeiras",
+                            "clube_uf": "SP"
+                        },
+                        {
+                            "id": "393253",
+                            "tipo": "PENALIDADE",
+                            "resultado": "AMARELO",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
+                            "clube_id": "20013",
+                            "atleta_nome": "Rodrigo Ely",
+                            "atleta_apelido": "R. Ely",
+                            "atleta_camisa": "5",
+                            "atleta_id": "819942",
+                            "tempo_jogo": "TN2",
+                            "minutos": "25:00",
+                            "clube_nome": "Grêmio",
+                            "clube_uf": "RS"
+                        },
+                        {
+                            "id": "393254",
+                            "tipo": "PENALIDADE",
+                            "resultado": "AMARELO",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20013/escudo.jpg",
+                            "clube_id": "20013",
+                            "atleta_nome": "Nata Felipe de Amorim Santos",
+                            "atleta_apelido": "Nata",
+                            "atleta_camisa": "36",
+                            "atleta_id": "582447",
+                            "tempo_jogo": "TN2",
+                            "minutos": "37:00",
+                            "clube_nome": "Grêmio",
+                            "clube_uf": "RS"
+                        },
+                        {
+                            "id": "393257",
+                            "tipo": "PENALIDADE",
+                            "resultado": "AMARELO",
+                            "url_escudo": "https://conteudo.cbf.com.br/clubes/20002/escudo.jpg",
+                            "clube_id": "20002",
+                            "atleta_nome": "Anibal Ismael Moreno",
+                            "atleta_apelido": "Anibal Moreno",
+                            "atleta_camisa": "5",
+                            "atleta_id": "836726",
+                            "tempo_jogo": "TN2",
+                            "minutos": "8:00",
+                            "clube_nome": "Palmeiras",
+                            "clube_uf": "SP"
+                        }
+                    ],
+                    "estadio": "Centenário",
+                    "cidade": "Caxias do Sul",
+                    "uf": "RS"
                 },
                 {
                     "id_jogo": "826590",

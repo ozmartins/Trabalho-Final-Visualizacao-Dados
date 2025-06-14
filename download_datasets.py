@@ -1,8 +1,8 @@
 import requests
 import time
 
-id_campeonatos = [12583]
-quantidade_rodadas = 38
+id_campeonatos = [12584]
+quantidade_rodadas = 1
 
 for id_campeonato in id_campeonatos:
     for rodada in range(quantidade_rodadas):
