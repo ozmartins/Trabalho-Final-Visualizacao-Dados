@@ -18,19 +18,19 @@ cur.execute(f"DELETE FROM cbf.arbitro")
 cur.execute(f"DELETE FROM cbf.alteracao")
 cur.execute(f"DELETE FROM cbf.documento")
 cur.execute(f"DELETE FROM cbf.escalacao")
+cur.execute(f"DELETE FROM cbf.jogo")
 cur.execute(f"DELETE FROM cbf.clube")
 cur.execute(f"DELETE FROM cbf.atleta")
-cur.execute(f"DELETE FROM cbf.jogo")
 cur.execute(f"DELETE FROM cbf.estadio")
 cur.execute(f"DELETE FROM cbf.cidade")
 cur.execute(f"DELETE FROM cbf.campeonato")
 
 rodadas = 38
-anos = [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+anos = [2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
 for ano in anos:    
     for rodada in range(rodadas):
-        print(f'Iniciando processamento da rodada {rodada+1} de {ano}...')
+        print(f'Processamento rodada {rodada+1} de {ano}...')
         if Path(f'./datasets/tratados/{ano}.{rodada+1}.json').exists():
             with open(f'./datasets/tratados/{ano}.{rodada+1}.json', 'r', encoding='utf-8') as file:
                 dataset = json.load(file)
@@ -111,7 +111,8 @@ for ano in anos:
                                     (select id_estadio from cbf.estadio where nome = '{jogo['estadio']}'),
                                     {jogo['mandante']['id']},
                                     {jogo['visitante']['id']}                                    
-                                )                            
+                                )       
+                                ON CONFLICT (id_jogo) DO NOTHING
                                 """)
                     
                     for arbitro in jogo['arbitros']:
@@ -147,6 +148,7 @@ for ano in anos:
                                     {jogo['id_jogo']},
                                     {jogo['mandante']['id']}
                                 )
+                                ON CONFLICT (id_jogo, id_clube) DO NOTHING
                                 """)
                     
                     cur.execute(f"""    
@@ -158,6 +160,7 @@ for ano in anos:
                                     {jogo['id_jogo']},
                                     {jogo['visitante']['id']}
                                 )
+                                ON CONFLICT (id_jogo, id_clube) DO NOTHING
                                 """)
                             
                     for atleta in jogo['mandante']['atletas']:
@@ -309,6 +312,7 @@ for ano in anos:
                                         '{penalidade['tempo_jogo']}', 
                                         '0001-01-01 00:{penalidade['minutos'][0:4]}'
                                     )
+                                    ON CONFLICT (id_penalidade) DO NOTHING
                                     """)
                     
                 conn.commit()                    
